@@ -12,6 +12,8 @@ set -g @plugin 'undefik/tmux-perspane'
 ## Issues
 The plugin uses a small script that creates a new Tmux session inside the popup, so the popup reacts to any Tmux keybinds, and persists after the outer Tmux session ends.
 
+The plugin may also interfere with any other plugins that use the popup.
+
 ## Credits
 
 This script was created by Will Richardson in 2023 and is only modified to work as a TPM plugin.
